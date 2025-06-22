@@ -1,0 +1,71 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--slate300);
+}
+
+.card-container {
+    width: 320px;
+    height: 499px;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.img-container {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+    display: block;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.text-container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--slate500);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: center; 
+    margin-bottom: 1rem;
+}
+
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
