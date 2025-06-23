@@ -12,11 +12,12 @@
 }
 body {
     background-color: var(--slate300);
+    font-family: Outfit, sans-serif;
 }
 
 .card-container {
     width: 320px;
-    height: 499px;
+    height: 500px;
     margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
@@ -38,13 +39,17 @@ body {
     margin: 0 auto;
 }
 .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;  
     text-align: center;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 1rem;
-    color: var(--slate500);
+    font-size: 1.3rem;
+    color: black;
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
@@ -52,7 +57,7 @@ h1 {
 p {
     font-size: 1rem;
     font-weight: 400;
-    color: var(--white);
+    color: var(--slate500);
 }
 
 footer {
