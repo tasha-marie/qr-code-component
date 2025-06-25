@@ -23,8 +23,8 @@ Thanks for checking out my front-end coding challenge from Frontend Mentor.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/tasha-marie/qr-code-component)
-- Live Site URL: [Add live site URL here](https://tasha-marie.github.io/qr-code-component/)
+- Solution URL: [My Solution](https://github.com/tasha-marie/qr-code-component)
+- Live Site URL: [Live site](https://tasha-marie.github.io/qr-code-component/)
 
 ### Built with
 
