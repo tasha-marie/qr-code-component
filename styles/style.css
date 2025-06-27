@@ -13,25 +13,22 @@
 body {
     background-color: var(--slate300);
     font-family: Outfit, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
     width: 320px;
     height: 500px;
     margin-top: 8rem;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 1rem;
     background-color: var(--white);
     border-radius: 20px;
 }
 
-.img-container {
-    padding-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.image-container img {
+.img-container img {
     display: block;
     width: 288px;
     height: 288px;
@@ -42,16 +39,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2rem;  
     text-align: center;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: black;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 p {
